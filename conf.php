@@ -27,7 +27,7 @@ $mail->Username   = $three; // SMTP account username example
 $mail->Password   = $four;        // SMTP account password example
 $mail->SMTPAutoTLS = true;  // Enable TLS protocol automatically if needed 
 
-$mail->setFrom("$three", "$three"); // Set From Mail
+$mail->setFrom("$five", "$five"); // Set From Mail
 $mail->addAddress('mail@example.com', 'mail2@example2.com'); // PUT YOUR EMAIL HERE & CAN MULTIPLE ADDRESS
 
 // Content
