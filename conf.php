@@ -11,6 +11,7 @@ $one = explode("|", $argv[1])[0];
 $two  = explode("|", $argv[1])[1];
 $three = explode("|", $argv[1])[2];
 $four = explode("|", $argv[1])[3];
+$five = explode("|", $argv[1])[4];
 
 $mail = new PHPMailer(true);
 
